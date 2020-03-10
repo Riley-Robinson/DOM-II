@@ -53,3 +53,19 @@ busImage.addEventListener("mouseleave", () => {
   let bColor2 = document.querySelector(".btn2");
   bColor2.addEventListener("click", event => event 
   .target.style.backgroundColor = "orange")
+
+
+  function ahhhh() {
+    alert("Good Morning, Vietnam ");
+  }
+
+  const boatImage = document.querySelector(".boat")
+  console.log(boatImage)
+  
+  boatImage.addEventListener("mouseenter", () => {
+    boatImage.style.transform = "scale(1.2)";
+    boatImage.style.transition = "transform 1s";
+  })
+  boatImage.addEventListener("mouseleave", () => {
+    boatImage.style.transform = "scale(1)";
+    })
